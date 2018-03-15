@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/ratnajalla/testNgProject">
+        <parameter name="url" value="https://login.yahoo.com/?authMechanism=primary\&amp;done=https%3A%2F%2Fwww.yahoo.com%2F\&amp;eid=100\&amp;as=1\&amp;login=jalla_madhavi\&amp;crumb=V9ncILcrOZc"/>
+        <parameter name="uName" value="${uName}"/>
+        <classes>
+            <class name="com.Parameters.ParameterTest">
+                <methods>
+                    <include name="paranterMethod"/>
+                    <include name="testMethod"/>
+                </methods>
+            </class>
+            <class name="com.RetryLogic.RetryLogicTest">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="com.dataProvider.test.dataprovider">
+                <methods>
+                    <include name="testDataMethod"/>
+                </methods>
+            </class>
+            <class name="com.test.ExceptionTimeOutTest">
+                <methods>
+                    <include name="infiniteLoopTest"/>
+                </methods>
+            </class>
+            <class name="com.test.GoogleTest">
+                <methods>
+                    <include name="verifyPageTile"/>
+                    <include name="verifyLogo"/>
+                    <include name="linkCheck"/>
+                    <include name="verifyPageTile1"/>
+                    <include name="verifyLogo1"/>
+                    <include name="linkCheck1"/>
+                </methods>
+            </class>
+            <class name="com.test.InvocationCount">
+                <methods>
+                    <include name="sumInt"/>
+                </methods>
+            </class>
+            <class name="com.test.ReadExcel">
+                <methods>
+                    <include name="readExcel"/>
+                </methods>
+            </class>
+            <class name="com.test.ReadExcel1">
+                <methods>
+                    <include name="readExcel"/>
+                    <include name="testArray"/>
+                </methods>
+            </class>
+            <class name="com.test.TestngFeatures">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="homePage"/>
+                    <include name="searchPage"/>
+                    <include name="registrationPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

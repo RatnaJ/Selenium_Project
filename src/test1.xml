@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Maven Suite">
+
+
+    <test name = "Test Maven Testing">
+
+        <parameter name="url" value="http://login.yahoo.com"/>
+        <parameter name="uName" value="jalla_madhavi@yahoo.com"/>
+        <classes>
+
+            <class name="com.test.ExceptionTimeOutTest"/>
+            <class name="com.test.GoogleTest"/>
+            <class name="com.test.InvocationCount"/>
+            <class name="com.test.TestngFeatures"/>
+            <class name="com.Parameters.ParameterTest"/>
+        </classes>
+
+    </test>
+</suite>

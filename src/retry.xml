@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test RetryLogic Suite">
+<listeners>
+    <listener class-name="com.ReTryAnalyzer.RetryTransformer"/>
+</listeners>
+
+    <test name = "Test Retry Testing">
+
+        <classes>
+            <class name="com.RetryLogic.RetryLogicTest"></class>
+        </classes>
+
+    </test>
+</suite>
