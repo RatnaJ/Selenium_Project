@@ -19,11 +19,11 @@ public class GoogleTest {
         String os = System.getProperty("os.name").toLowerCase();
         System.out.println("Operating System is "+os);
         if (os.contains("mac")) {
-//            System.setProperty("webdriver.chrome.driver", "/Users/ratnajalla/Downloads/chromedriver");
-//            driver = new ChromeDriver();
+            System.setProperty("webdriver.chrome.driver", "/Users/ratnajalla/Downloads/chromedriver");
+            driver = new ChromeDriver();
 
             //System.setProperty("webdriver.chrome.driver", "/Users/ratnajalla/Downloads/chromedriver");
-            driver = new FirefoxDriver();
+//            driver = new FirefoxDriver();
 
 
             driver.get("http://www.google.com");

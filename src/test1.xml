@@ -3,18 +3,33 @@
 <suite name="Test Maven Suite">
 
 
-    <test name = "Test Maven Testing">
+    <test name="Test Maven Testing">
 
         <parameter name="url" value="http://login.yahoo.com"/>
         <parameter name="uName" value="jalla_madhavi@yahoo.com"/>
         <classes>
 
             <class name="com.test.ExceptionTimeOutTest"/>
-            <class name="com.test.GoogleTest"/>
             <class name="com.test.InvocationCount"/>
-            <class name="com.test.TestngFeatures"/>
             <class name="com.Parameters.ParameterTest"/>
+            <class name="com.test.PropertiesTest"/>
+
         </classes>
 
     </test>
+
+    <test name="RetryLogic">
+        <classes>
+            <class name="com.test.TestngFeatures"/>
+        </classes>
+
+    </test>
+
+    <test name="googleTest">
+        <classes>
+            <class name="com.test.GoogleTest"/>
+        </classes>
+
+    </test>
+
 </suite>

@@ -27,7 +27,7 @@
                 <version>2.20.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/Users/ratnajalla/testNgProject/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>/Users/ratnajalla/testNgProject/src/test1.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/ratnajalla/testNgProject">
-        <parameter name="url" value="https://login.yahoo.com/?authMechanism=primary\&amp;done=https%3A%2F%2Fwww.yahoo.com%2F\&amp;eid=100\&amp;as=1\&amp;login=jalla_madhavi\&amp;crumb=V9ncILcrOZc"/>
+        <parameter name="url"
+                   value="https://login.yahoo.com/?authMechanism=primary\&amp;done=https%3A%2F%2Fwww.yahoo.com%2F\&amp;eid=100\&amp;as=1\&amp;login=jalla_madhavi\&amp;crumb=V9ncILcrOZc"/>
         <parameter name="uName" value="${uName}"/>
         <classes>
             <class name="com.Parameters.ParameterTest">
@@ -27,16 +28,7 @@
                     <include name="infiniteLoopTest"/>
                 </methods>
             </class>
-            <class name="com.test.GoogleTest">
-                <methods>
-                    <include name="verifyPageTile"/>
-                    <include name="verifyLogo"/>
-                    <include name="linkCheck"/>
-                    <include name="verifyPageTile1"/>
-                    <include name="verifyLogo1"/>
-                    <include name="linkCheck1"/>
-                </methods>
-            </class>
+
             <class name="com.test.InvocationCount">
                 <methods>
                     <include name="sumInt"/>
@@ -53,14 +45,21 @@
                     <include name="testArray"/>
                 </methods>
             </class>
-            <class name="com.test.TestngFeatures">
-                <methods>
-                    <include name="loginTest"/>
-                    <include name="homePage"/>
-                    <include name="searchPage"/>
-                    <include name="registrationPage"/>
-                </methods>
-            </class>
+
         </classes>
     </test>
+
+    <test name="RetryLogic">
+        <classes>
+            <class name="com.test.TestngFeatures"/>
+        </classes>
+
+    </test>
+    <test name="googleTest">
+        <classes>
+            <class name="com.test.GoogleTest"/>
+        </classes>
+
+    </test>
+
 </suite>

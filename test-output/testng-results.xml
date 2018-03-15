@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="20" passed="18">
+<testng-results skipped="0" failed="2" ignored="0" total="29" passed="27">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="17964" started-at="2018-03-13T18:20:45Z" finished-at="2018-03-13T18:21:03Z">
+  <suite name="All Test Suite" duration-ms="48017" started-at="2018-03-15T18:41:51Z" finished-at="2018-03-15T18:42:39Z">
     <groups>
       <group name="Logo Verification">
-        <method signature="GoogleTest.verifyLogo()[pri:2, instance:com.test.GoogleTest@6fadae5d]" name="verifyLogo" class="com.test.GoogleTest"/>
-        <method signature="GoogleTest.verifyLogo1()[pri:5, instance:com.test.GoogleTest@6fadae5d]" name="verifyLogo1" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.verifyLogo()[pri:2, instance:com.test.GoogleTest@6fb554cc]" name="verifyLogo" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.verifyLogo1()[pri:5, instance:com.test.GoogleTest@6fb554cc]" name="verifyLogo1" class="com.test.GoogleTest"/>
       </group> <!-- Logo Verification -->
       <group name="Title Verification">
-        <method signature="GoogleTest.verifyPageTile()[pri:1, instance:com.test.GoogleTest@6fadae5d]" name="verifyPageTile" class="com.test.GoogleTest"/>
-        <method signature="GoogleTest.verifyPageTile1()[pri:4, instance:com.test.GoogleTest@6fadae5d]" name="verifyPageTile1" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.verifyPageTile()[pri:1, instance:com.test.GoogleTest@6fb554cc]" name="verifyPageTile" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.verifyPageTile1()[pri:4, instance:com.test.GoogleTest@6fb554cc]" name="verifyPageTile1" class="com.test.GoogleTest"/>
       </group> <!-- Title Verification -->
       <group name="LinkCheck">
-        <method signature="GoogleTest.linkCheck()[pri:3, instance:com.test.GoogleTest@6fadae5d]" name="linkCheck" class="com.test.GoogleTest"/>
-        <method signature="GoogleTest.linkCheck1()[pri:6, instance:com.test.GoogleTest@6fadae5d]" name="linkCheck1" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.linkCheck()[pri:3, instance:com.test.GoogleTest@6fb554cc]" name="linkCheck" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.linkCheck1()[pri:6, instance:com.test.GoogleTest@6fb554cc]" name="linkCheck1" class="com.test.GoogleTest"/>
       </group> <!-- LinkCheck -->
     </groups>
-    <test name="/Users/ratnajalla/testNgProject" duration-ms="17964" started-at="2018-03-13T18:20:45Z" finished-at="2018-03-13T18:21:03Z">
+    <test name="/Users/ratnajalla/testNgProject" duration-ms="23361" started-at="2018-03-15T18:41:51Z" finished-at="2018-03-15T18:42:14Z">
       <class name="com.test.ReadExcel">
-        <test-method status="PASS" signature="readExcel()[pri:0, instance:com.test.ReadExcel@2d6e8792]" name="readExcel" duration-ms="39" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="readExcel()[pri:0, instance:com.test.ReadExcel@2f7a2457]" name="readExcel" duration-ms="49" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readExcel -->
       </class> <!-- com.test.ReadExcel -->
       <class name="com.test.ReadExcel1">
-        <test-method status="PASS" signature="readExcel()[pri:0, instance:com.test.ReadExcel1@2812cbfa]" name="readExcel" duration-ms="15" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="readExcel()[pri:0, instance:com.test.ReadExcel1@566776ad]" name="readExcel" duration-ms="18" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readExcel -->
-        <test-method status="PASS" signature="testArray()[pri:0, instance:com.test.ReadExcel1@2812cbfa]" name="testArray" duration-ms="0" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="testArray()[pri:0, instance:com.test.ReadExcel1@566776ad]" name="testArray" duration-ms="0" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testArray -->
       </class> <!-- com.test.ReadExcel1 -->
       <class name="com.RetryLogic.RetryLogicTest">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:com.RetryLogic.RetryLogicTest@59a6e353]" name="test1" duration-ms="3" started-at="2018-03-13T18:20:48Z" finished-at="2018-03-13T18:20:48Z">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.RetryLogic.RetryLogicTest@60f82f98]" name="test1" duration-ms="1" started-at="2018-03-15T18:41:56Z" finished-at="2018-03-15T18:41:56Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -79,7 +79,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="test2()[pri:0, instance:com.RetryLogic.RetryLogicTest@59a6e353]" name="test2" duration-ms="0" started-at="2018-03-13T18:20:48Z" finished-at="2018-03-13T18:20:48Z">
+        <test-method status="FAIL" signature="test2()[pri:0, instance:com.RetryLogic.RetryLogicTest@60f82f98]" name="test2" duration-ms="0" started-at="2018-03-15T18:41:56Z" finished-at="2018-03-15T18:41:56Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -125,29 +125,29 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
         </test-method> <!-- test2 -->
       </class> <!-- com.RetryLogic.RetryLogicTest -->
       <class name="com.test.InvocationCount">
-        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@17f6480]" name="sumInt" duration-ms="1" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@edf4efb]" name="sumInt" duration-ms="1" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumInt -->
-        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@17f6480]" name="sumInt" duration-ms="0" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@edf4efb]" name="sumInt" duration-ms="0" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumInt -->
-        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@17f6480]" name="sumInt" duration-ms="0" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@edf4efb]" name="sumInt" duration-ms="0" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumInt -->
-        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@17f6480]" name="sumInt" duration-ms="0" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@edf4efb]" name="sumInt" duration-ms="0" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumInt -->
-        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@17f6480]" name="sumInt" duration-ms="0" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="sumInt()[pri:0, instance:com.test.InvocationCount@edf4efb]" name="sumInt" duration-ms="0" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumInt -->
       </class> <!-- com.test.InvocationCount -->
       <class name="com.Parameters.ParameterTest">
-        <test-method status="PASS" signature="paranterMethod(java.lang.String)[pri:0, instance:com.Parameters.ParameterTest@3d24753a]" name="paranterMethod" duration-ms="2164" started-at="2018-03-13T18:20:45Z" finished-at="2018-03-13T18:20:48Z">
+        <test-method status="PASS" signature="paranterMethod(java.lang.String)[pri:0, instance:com.Parameters.ParameterTest@6442b0a6]" name="paranterMethod" duration-ms="5069" started-at="2018-03-15T18:41:51Z" finished-at="2018-03-15T18:41:56Z">
           <params>
             <param index="0">
               <value>
@@ -158,34 +158,28 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paranterMethod -->
-        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:com.Parameters.ParameterTest@3d24753a]" name="testMethod" duration-ms="244" started-at="2018-03-13T18:20:48Z" finished-at="2018-03-13T18:20:48Z">
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:com.Parameters.ParameterTest@6442b0a6]" name="testMethod" duration-ms="253" started-at="2018-03-15T18:41:56Z" finished-at="2018-03-15T18:41:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[jalla_madhavi@yahoo.com]]>
+                <![CDATA[${uName}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Parameters.ParameterTest@3d24753a]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-03-13T18:20:48Z" finished-at="2018-03-13T18:20:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Parameters.ParameterTest@6442b0a6]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-03-15T18:41:56Z" finished-at="2018-03-15T18:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Parameters.ParameterTest -->
-      <class name="com.test.TestngFeatures">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.test.TestngFeatures@2acf57e3]" name="loginTest" duration-ms="0" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.test.TestngFeatures -->
       <class name="com.dataProvider.test.dataprovider">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="setUp" is-config="true" duration-ms="1890" started-at="2018-03-13T18:20:48Z" finished-at="2018-03-13T18:20:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="setUp" is-config="true" duration-ms="2149" started-at="2018-03-15T18:41:57Z" finished-at="2018-03-15T18:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="testDataMethod" duration-ms="518" started-at="2018-03-13T18:20:50Z" data-provider="getTestData" finished-at="2018-03-13T18:20:51Z">
+        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="testDataMethod" duration-ms="649" started-at="2018-03-15T18:41:59Z" data-provider="getTestData" finished-at="2018-03-15T18:41:59Z">
           <params>
             <param index="0">
               <value>
@@ -211,15 +205,15 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-03-13T18:20:51Z" finished-at="2018-03-13T18:20:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-03-15T18:41:59Z" finished-at="2018-03-15T18:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="setUp" is-config="true" duration-ms="1956" started-at="2018-03-13T18:20:51Z" finished-at="2018-03-13T18:20:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="setUp" is-config="true" duration-ms="2005" started-at="2018-03-15T18:41:59Z" finished-at="2018-03-15T18:42:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="testDataMethod" duration-ms="540" started-at="2018-03-13T18:20:53Z" data-provider="getTestData" finished-at="2018-03-13T18:20:53Z">
+        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="testDataMethod" duration-ms="619" started-at="2018-03-15T18:42:01Z" data-provider="getTestData" finished-at="2018-03-15T18:42:02Z">
           <params>
             <param index="0">
               <value>
@@ -245,15 +239,15 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-03-13T18:20:53Z" finished-at="2018-03-13T18:20:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-03-15T18:42:02Z" finished-at="2018-03-15T18:42:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="setUp" is-config="true" duration-ms="1954" started-at="2018-03-13T18:20:53Z" finished-at="2018-03-13T18:20:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="setUp" is-config="true" duration-ms="2065" started-at="2018-03-15T18:42:02Z" finished-at="2018-03-15T18:42:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="testDataMethod" duration-ms="507" started-at="2018-03-13T18:20:55Z" data-provider="getTestData" finished-at="2018-03-13T18:20:56Z">
+        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="testDataMethod" duration-ms="610" started-at="2018-03-15T18:42:04Z" data-provider="getTestData" finished-at="2018-03-15T18:42:05Z">
           <params>
             <param index="0">
               <value>
@@ -279,15 +273,15 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-03-13T18:20:56Z" finished-at="2018-03-13T18:20:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-03-15T18:42:05Z" finished-at="2018-03-15T18:42:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="setUp" is-config="true" duration-ms="1894" started-at="2018-03-13T18:20:56Z" finished-at="2018-03-13T18:20:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="setUp" is-config="true" duration-ms="2127" started-at="2018-03-15T18:42:05Z" finished-at="2018-03-15T18:42:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="testDataMethod" duration-ms="509" started-at="2018-03-13T18:20:58Z" data-provider="getTestData" finished-at="2018-03-13T18:20:58Z">
+        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="testDataMethod" duration-ms="687" started-at="2018-03-15T18:42:07Z" data-provider="getTestData" finished-at="2018-03-15T18:42:08Z">
           <params>
             <param index="0">
               <value>
@@ -313,15 +307,15 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-03-13T18:20:58Z" finished-at="2018-03-13T18:20:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-03-15T18:42:08Z" finished-at="2018-03-15T18:42:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="setUp" is-config="true" duration-ms="1860" started-at="2018-03-13T18:20:58Z" finished-at="2018-03-13T18:21:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="setUp" is-config="true" duration-ms="2117" started-at="2018-03-15T18:42:08Z" finished-at="2018-03-15T18:42:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="testDataMethod" duration-ms="491" started-at="2018-03-13T18:21:00Z" data-provider="getTestData" finished-at="2018-03-13T18:21:01Z">
+        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="testDataMethod" duration-ms="635" started-at="2018-03-15T18:42:10Z" data-provider="getTestData" finished-at="2018-03-15T18:42:11Z">
           <params>
             <param index="0">
               <value>
@@ -347,15 +341,15 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-03-13T18:21:01Z" finished-at="2018-03-13T18:21:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="tearDown" is-config="true" duration-ms="80" started-at="2018-03-15T18:42:11Z" finished-at="2018-03-15T18:42:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="setUp" is-config="true" duration-ms="1868" started-at="2018-03-13T18:21:01Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="setUp" is-config="true" duration-ms="2358" started-at="2018-03-15T18:42:11Z" finished-at="2018-03-15T18:42:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="testDataMethod" duration-ms="526" started-at="2018-03-13T18:21:03Z" data-provider="getTestData" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="testDataMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="testDataMethod" duration-ms="826" started-at="2018-03-15T18:42:13Z" data-provider="getTestData" finished-at="2018-03-15T18:42:14Z">
           <params>
             <param index="0">
               <value>
@@ -381,13 +375,13 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataProvider.test.dataprovider@35f983a6]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dataProvider.test.dataprovider -->
       <class name="com.test.ExceptionTimeOutTest">
-        <test-method status="PASS" signature="infiniteLoopTest()[pri:0, instance:com.test.ExceptionTimeOutTest@71be98f5]" name="infiniteLoopTest" duration-ms="0" started-at="2018-03-13T18:21:03Z" finished-at="2018-03-13T18:21:03Z">
+        <test-method status="PASS" signature="infiniteLoopTest()[pri:0, instance:com.test.ExceptionTimeOutTest@7f690630]" name="infiniteLoopTest" duration-ms="0" started-at="2018-03-15T18:42:14Z" finished-at="2018-03-15T18:42:14Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[For input string: "1C"]]>
@@ -430,5 +424,101 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
         </test-method> <!-- infiniteLoopTest -->
       </class> <!-- com.test.ExceptionTimeOutTest -->
     </test> <!-- /Users/ratnajalla/testNgProject -->
+    <test name="RetryLogic" duration-ms="3" started-at="2018-03-15T18:42:19Z" finished-at="2018-03-15T18:42:19Z">
+      <class name="com.test.TestngFeatures">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.test.TestngFeatures@246ae04d]" name="loginTest" duration-ms="0" started-at="2018-03-15T18:42:19Z" finished-at="2018-03-15T18:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.test.TestngFeatures@246ae04d]" name="homePage" duration-ms="0" started-at="2018-03-15T18:42:19Z" depends-on-methods="com.test.TestngFeatures.loginTest" finished-at="2018-03-15T18:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="registrationPage()[pri:0, instance:com.test.TestngFeatures@246ae04d]" name="registrationPage" duration-ms="0" started-at="2018-03-15T18:42:19Z" depends-on-methods="com.test.TestngFeatures.loginTest" finished-at="2018-03-15T18:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method status="PASS" signature="searchPage()[pri:0, instance:com.test.TestngFeatures@246ae04d]" name="searchPage" duration-ms="0" started-at="2018-03-15T18:42:19Z" depends-on-methods="com.test.TestngFeatures.loginTest" finished-at="2018-03-15T18:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+      </class> <!-- com.test.TestngFeatures -->
+    </test> <!-- RetryLogic -->
+    <test name="googleTest" duration-ms="14620" started-at="2018-03-15T18:42:24Z" finished-at="2018-03-15T18:42:39Z">
+      <class name="com.test.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="setUp" is-config="true" duration-ms="1772" started-at="2018-03-15T18:42:24Z" finished-at="2018-03-15T18:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTile()[pri:1, instance:com.test.GoogleTest@6fb554cc]" name="verifyPageTile" duration-ms="10" started-at="2018-03-15T18:42:26Z" finished-at="2018-03-15T18:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-03-15T18:42:26Z" finished-at="2018-03-15T18:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="setUp" is-config="true" duration-ms="2918" started-at="2018-03-15T18:42:26Z" finished-at="2018-03-15T18:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogo()[pri:2, instance:com.test.GoogleTest@6fb554cc]" name="verifyLogo" duration-ms="35" started-at="2018-03-15T18:42:29Z" finished-at="2018-03-15T18:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-03-15T18:42:29Z" finished-at="2018-03-15T18:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="setUp" is-config="true" duration-ms="1776" started-at="2018-03-15T18:42:29Z" finished-at="2018-03-15T18:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkCheck()[pri:3, instance:com.test.GoogleTest@6fb554cc]" name="linkCheck" duration-ms="40" started-at="2018-03-15T18:42:31Z" finished-at="2018-03-15T18:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-03-15T18:42:31Z" finished-at="2018-03-15T18:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="setUp" is-config="true" duration-ms="3412" started-at="2018-03-15T18:42:31Z" finished-at="2018-03-15T18:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTile1()[pri:4, instance:com.test.GoogleTest@6fb554cc]" name="verifyPageTile1" duration-ms="11" started-at="2018-03-15T18:42:34Z" finished-at="2018-03-15T18:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTile1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-03-15T18:42:34Z" finished-at="2018-03-15T18:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="setUp" is-config="true" duration-ms="1434" started-at="2018-03-15T18:42:34Z" finished-at="2018-03-15T18:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogo1()[pri:5, instance:com.test.GoogleTest@6fb554cc]" name="verifyLogo1" duration-ms="34" started-at="2018-03-15T18:42:36Z" finished-at="2018-03-15T18:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-03-15T18:42:36Z" finished-at="2018-03-15T18:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="setUp" is-config="true" duration-ms="2686" started-at="2018-03-15T18:42:36Z" finished-at="2018-03-15T18:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkCheck1()[pri:6, instance:com.test.GoogleTest@6fb554cc]" name="linkCheck1" duration-ms="38" started-at="2018-03-15T18:42:39Z" finished-at="2018-03-15T18:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkCheck1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-03-15T18:42:39Z" finished-at="2018-03-15T18:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.GoogleTest -->
+    </test> <!-- googleTest -->
   </suite> <!-- All Test Suite -->
 </testng-results>

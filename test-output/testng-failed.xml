@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
   <test thread-count="5" name="/Users/ratnajalla/testNgProject(failed)">
-    <parameter name="uName" value="jalla_madhavi@yahoo.com"/>
+    <parameter name="uName" value="${uName}"/>
     <parameter name="url" value="https://login.yahoo.com/?authMechanism=primary\&amp;done=https%3A%2F%2Fwww.yahoo.com%2F\&amp;eid=100\&amp;as=1\&amp;login=jalla_madhavi\&amp;crumb=V9ncILcrOZc"/>
     <classes>
       <class name="com.RetryLogic.RetryLogicTest">
